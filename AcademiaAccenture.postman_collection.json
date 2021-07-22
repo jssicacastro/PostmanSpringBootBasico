@@ -43,7 +43,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8081/users/viewAluno/2",
+							"raw": "http://localhost:8081/users/viewAluno/4",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -52,7 +52,7 @@
 							"path": [
 								"users",
 								"viewAluno",
-								"2"
+								"4"
 							]
 						}
 					},
@@ -141,7 +141,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"salario\": 2000,\r\n    \"idade\": 30,\r\n    \"cpf\": \"2\",\r\n    \"nome\": \"João\"\r\n}",
+							"raw": "{\r\n    \"salario\": 2000,\r\n    \"idade\": 30,\r\n    \"cpf\": \"10314663479\",\r\n    \"nome\": \"João\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -189,7 +189,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8081/users/viewProfessor/3",
+							"raw": "http://localhost:8081/users/viewProfessor/12",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -198,7 +198,7 @@
 							"path": [
 								"users",
 								"viewProfessor",
-								"3"
+								"12"
 							]
 						}
 					},
@@ -211,7 +211,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n        \"nome\": \"Ana\",\r\n        \"cpf\": \"3\",\r\n        \"idade\": 25,\r\n        \"salario\": 3000.0\r\n    }",
+							"raw": "{\r\n        \"nome\": \"Ana\",\r\n        \"cpf\": \"53518632434\",\r\n        \"idade\": 25,\r\n        \"salario\": 3000.0\r\n    }",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -219,7 +219,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8081/users/updateProfessor/3",
+							"raw": "http://localhost:8081/users/updateProfessor/12",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -228,7 +228,7 @@
 							"path": [
 								"users",
 								"updateProfessor",
-								"3"
+								"12"
 							]
 						}
 					},
@@ -240,7 +240,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8081/users/deleteProfessor/4",
+							"raw": "http://localhost:8081/users/deleteProfessor/13",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -249,7 +249,7 @@
 							"path": [
 								"users",
 								"deleteProfessor",
-								"4"
+								"13"
 							]
 						}
 					},
@@ -295,7 +295,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8081/users/viewCurso/1",
+							"raw": "http://localhost:8081/users/viewCurso/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -304,7 +304,7 @@
 							"path": [
 								"users",
 								"viewCurso",
-								"1"
+								"2"
 							]
 						}
 					},
